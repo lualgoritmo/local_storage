@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container
+        {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <ul>
+            <li>um</li>
+            <li>dois</li>
+            <li>tres</li>
+            <li>quatro</li>
+        </ul>
+    </div>
+    <script>
+       /* console.log(localStorage);
+        localStorage.setItem('name','Luana Gostosa');
+        localStorage.setItem('nome','Luciano');
+        console.log('------------------------------');
+        let name = localStorage.getItem('name');
+        let nome = localStorage.getItem('nome');
+
+        localStorage.setItem('name', 'Luana Delícia');
+        localStorage.setItem('nome', 'Muito gostosa');*/
+        let name = localStorage.getItem('name');
+        let nome = localStorage.getItem('nome');
+        localStorage.removeItem('nome');
+        console.log(name, nome);
+
+    </script>
+</body>
+</html>
+
+
+
